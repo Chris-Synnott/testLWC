@@ -1,6 +1,6 @@
-# my-app
+# Syn Lightning Web Components
 
-Here will be some information about the app.
+Testing out the new Salesforce Lightning Web Components!
 
 ## How to start?
 
