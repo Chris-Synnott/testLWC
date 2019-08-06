@@ -7,7 +7,7 @@
 // https://github.com/trailheadapps/lwc-recipes-oss
 
 import { createElement } from 'lwc';
-import MyGreeting from 'my/greeting';
+import MyGreeting from 'syn/greeting';
 
 describe('my-greeting', () => {
     afterEach(() => {
@@ -20,7 +20,7 @@ describe('my-greeting', () => {
     it('contains a div that controls animation.', () => {
         const SPEED_CLASS_VALUES = ['fade-slow', 'fade-fast', 'fade-medium'];
 
-        const element = createElement('my-greeting', {
+        const element = createElement('syn-greeting', {
             is: MyGreeting
         });
         document.body.appendChild(element);
@@ -36,7 +36,7 @@ describe('my-greeting', () => {
     it('contains a span tag that displays the greeting message.', () => {
         const INITIAL_GREETING = 'Hello';
 
-        const element = createElement('my-greeting', {
+        const element = createElement('syn-greeting', {
             is: MyGreeting
         });
         document.body.appendChild(element);

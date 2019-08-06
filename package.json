@@ -8,6 +8,7 @@
         "lwc-services": "^1.2.2"
     },
     "devDependencies": {
+        "@salesforce/lwc-jest": "^0.5.1",
         "husky": "^2.4.1",
         "lint-staged": "^8.2.1"
     },

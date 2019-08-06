@@ -1,8 +1,7 @@
 import { LightningElement, track, api } from 'lwc';
 
-
 export default class helloWorld extends LightningElement {
-    @track helloName = 'Blah';
+    @track helloName;
 
     //track name
     @api
