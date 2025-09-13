@@ -5,7 +5,7 @@
     "author": "Chris Synnott",
     "bugs": "https://github.com/Chris Synnott/testLWC/issues",
     "dependencies": {
-        "lwc-services": "^1.2.2"
+        "lwc-services": "^3.2.2"
     },
     "devDependencies": {
         "@salesforce/lwc-jest": "^0.5.1",
